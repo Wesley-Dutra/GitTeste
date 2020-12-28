@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(13, 223, 160);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 18pt;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.349); 
+    font-size: 13pt;
+}
+
+#num {
+    background-color: rgb(111, 243, 170);
+    border: 2px solid  rgb(89, 194, 136);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input[type=button] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(44, 196, 133);
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    outline: none;
+}
+
+input[type=button]:active {
+    background-color: rgb(32, 146, 108);
+    cursor: none;
+    outline: none;
+}
+
+hr {
+    background-color: rgb(20, 179, 118);
+    padding: 1px 0;
+}
+
+#res {
+    outline: none;
+}
+
+#res option:hover {
+    background-color: rgb(121, 241, 181);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font: italic 10pt courier;
+}
